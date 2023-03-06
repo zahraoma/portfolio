@@ -1,0 +1,197 @@
+.home {
+  background: #E5E5E5;
+}
+
+.intro {
+  background: #FFFFFF;
+  position: absolute;
+  width: 970px;
+  height: 531.9px;
+  left: 335px;
+  top: 0px;
+}
+
+.title {
+  position: absolute;
+  width: 500px;
+  height: 134.4px;
+  left: 60px;
+  top: 105.92px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 123.6%;
+  background: #FFFFFF;
+}
+.title .front {
+  color: #FFB400;
+}
+
+.person {
+  position: absolute;
+  width: 325.72px;
+  height: 522.89px;
+  left: 586.68px;
+  top: 9.11px;
+}
+
+.des {
+  position: absolute;
+  background: #FFFFFF;
+  width: 424px;
+  height: 100.23px;
+  left: 60px;
+  top: 260.82px;
+  color: #767676;
+  /* H6 - 16px */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  text-transform: capitalize;
+  /*font-feature-settings: 'calt'off, 'kern'off;*/
+}
+
+.button_layout {
+  position: absolute;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  width: 154px;
+  height: 58.09px;
+  left: 60px;
+  top: 389.53px;
+}
+.button_layout .button {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 32px;
+  gap: 10px;
+  width: 154px;
+  height: 51px;
+  /* Yellow */
+  background: #FFB400;
+  border-radius: 5px;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.button_layout .button_text {
+  position: absolute;
+  width: 65px;
+  height: 19px;
+  left: 32px;
+  top: 16px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  /* Black */
+  color: #2B2B2B;
+}
+.button_layout .vector {
+  position: absolute;
+  left: 106px;
+  top: 17px;
+  height: 10.37px;
+  width: 10.67px;
+}
+
+.Rectangle51 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 16.45px;
+  height: 17.82px;
+  left: 895.44px;
+  top: 79.34px;
+  border: 2px solid rgba(255, 180, 0, 0.8);
+  transform: matrix(0.87, 0.49, -0.39, 0.92, 0, 0);
+}
+
+.Polygon1 {
+  background-color: white;
+  box-sizing: border-box;
+  position: absolute;
+  left: 921px;
+  top: 486.34px;
+  border: 2px solid transparent;
+  border-bottom: 18.22px solid rgba(255, 46, 0, 0.8);
+  border-right: 8px solid transparent;
+  border-left: 8px solid transparent;
+}
+
+.Ellipse12 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 16px;
+  height: 18.22px;
+  left: 520px;
+  top: 59.23px;
+  border: 2px solid rgba(5, 255, 0, 0.8);
+  border-radius: 50%;
+}
+
+.Ellipse13 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 16px;
+  height: 18.22px;
+  left: 557.86px;
+  top: 432.77px;
+  border: 2px solid rgba(255, 180, 0, 0.8);
+  border-radius: 50%;
+}
+
+.Rectangle52 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 16.45px;
+  height: 17.82px;
+  left: 373.8px;
+  top: 379.28px;
+  border: 2px solid rgba(0, 71, 255, 0.8);
+  transform: matrix(0.87, 0.49, -0.39, 0.92, 0, 0);
+}
+
+.Ellipse15 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 16px;
+  height: 18.22px;
+  left: 40px;
+  top: 34.17px;
+  border: 2px solid rgba(255, 180, 0, 0.8);
+  border-radius: 50%;
+}
+
+.Ellipse16 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 16px;
+  height: 18.22px;
+  left: 88px;
+  top: 480.64px;
+  border: 2px solid rgba(5, 255, 0, 0.8);
+  border-radius: 50%;
+}
+
+.sidebar {
+  position: absolute;
+  width: 23%;
+  height: 42.43%;
+  margin-left: 0px;
+  margin-top: 0px;
+  /* White */
+  background: #FFFFFF;
+}/*# sourceMappingURL=style.css.map */

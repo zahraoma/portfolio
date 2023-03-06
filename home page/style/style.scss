@@ -1,0 +1,268 @@
+@import 'variables';
+
+.home {
+  background: $background;
+
+}
+
+.intro {
+  background: $divs_color;
+  position: absolute;
+  width: 970px;
+  //531.9px / 3099
+  height: 531.9px;
+  // 335/1326*100 = 
+  left: 335px;
+  top: 0px;
+}
+
+
+.title {
+  position: absolute;
+  //500px
+  width: 500px;
+  //134.4px
+  height: 134.4px;
+  //60px / 970 
+  left: 60px;
+  //105.92px / 531.9
+  top: 105.92px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 123.6%;
+  background: $divs_color;
+
+  .front {
+    color: #FFB400;
+  }
+
+}
+
+
+
+.person {
+  position: absolute;
+  //325.72px
+  width: 325.72px;
+  //522.89px
+  height: 522.89px;
+  //586.68px
+  left: 586.68px;
+  //9.11px
+  top: 9.11px;
+  //responsive
+  //max-width: 100%;
+  //height: auto;
+}
+
+
+
+.des {
+  position: absolute;
+  background: $divs_color;
+  //424px
+  width: 424px;
+  //100.23px
+  height: 100.23px;
+  //60px
+  left: 60px;
+  //260.82px
+  top: 260.82px;
+  color: #767676;
+
+  /* H6 - 16px */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  /* or 150% */
+  text-transform: capitalize;
+  /*font-feature-settings: 'calt'off, 'kern'off;*/
+
+}
+
+
+.button_layout {
+
+  position: absolute;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  //154px
+  width: 154px;
+  //58.09px
+  height: 58.09px;
+  //60px
+  left: 60px;
+  //389.53px
+  top: 389.53px;
+
+  .button {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+    gap: 10px;
+
+    width: 154px;
+    height: 51px;
+
+    /* Yellow */
+    background: #FFB400;
+    border-radius: 5px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+  }
+
+  .button_text {
+    position: absolute;
+    width: 65px;
+    height: 19px;
+    left: 32px;
+    top: 16px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    /* Black */
+    color: #2B2B2B;
+  }
+
+  .vector {
+    position: absolute;
+    left: 106px;
+    top: 17px;
+    height: 10.37px;
+    width: 10.67px;
+    //responsive
+    //max-width: 100%;
+    //height: auto;
+  }
+}
+
+
+
+.Rectangle51 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 16.45px;
+  height: 17.82px;
+  left: 895.44px;
+  top: 79.34px;
+
+  border: 2px solid rgba(255, 180, 0, 0.8);
+  transform: matrix(0.87, 0.49, -0.39, 0.92, 0, 0);
+}
+
+.Polygon1 {
+  background-color: white;
+  box-sizing: border-box;
+  position: absolute;
+  left: 921px;
+  top: 486.34px;
+  //height: 0;
+  //width: 0;
+  //border-left = width/2 : 16px / 2 = 8px;
+  //border-bottom = height = 18.22px;
+  //border: 2px solid rgba(255, 46, 0, 0.8);
+  //border-top: 0;
+  border: 2px solid transparent;
+  border-bottom: 18.22px solid rgba(255, 46, 0, 0.8);
+  // (16 ^  2 ) + ( 18.22 ^ 2 ) = 24.24 ^ 2
+  border-right: 8px solid transparent;
+  border-left: 8px solid transparent;
+  //fill: transparent;
+
+}
+
+.Ellipse12 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 16px;
+  height: 18.22px;
+  left: 520px;
+  top: 59.23px;
+
+  border: 2px solid rgba(5, 255, 0, 0.8);
+  border-radius: 50%;
+}
+
+.Ellipse13 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 16px;
+  height: 18.22px;
+  left: 557.86px;
+  top: 432.77px;
+
+  border: 2px solid rgba(255, 180, 0, 0.8);
+  border-radius: 50%;
+}
+
+.Rectangle52 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 16.45px;
+  height: 17.82px;
+  left: 373.8px;
+  top: 379.28px;
+
+  border: 2px solid rgba(0, 71, 255, 0.8);
+  transform: matrix(0.87, 0.49, -0.39, 0.92, 0, 0);
+}
+
+.Ellipse15 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 16px;
+  height: 18.22px;
+  left: 40px;
+  top: 34.17px;
+
+  border: 2px solid rgba(255, 180, 0, 0.8);
+  border-radius: 50%;
+}
+
+.Ellipse16 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 16px;
+  height: 18.22px;
+  left: 88px;
+  top: 480.64px;
+
+  border: 2px solid rgba(5, 255, 0, 0.8);
+  border-radius: 50%;
+}
+
+.sidebar {
+  position: absolute;
+  //305px
+  width: 23%;
+  //1315px
+  height: 42.43%;
+  margin-left: 0px;
+  margin-top: 0px;
+
+  /* White */
+  background: #FFFFFF;
+}
