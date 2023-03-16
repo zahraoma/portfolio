@@ -5,34 +5,48 @@
 
 }
 
+
 .intro {
   background: $divs_color;
-  position: absolute;
-  width: 970px;
-  //531.9px / 3099
-  height: 531.9px;
-  // 335/1326*100 = 
-  left: 335px;
-  top: 0px;
+  max-width: 970px;
+  //height: auto;
+  display: flex;
+  //height: 531.9px;
+  //right: 21px;
+  margin-left: 335px;
+  margin-top: 0px;
+  flex-wrap: wrap;
 }
 
+.left {
+  display: flex ;
+  flex-flow: wrap;
+  flex-flow: column;
+  margin-top: 0px;
+  max-width: 970px ;
+  height: auto;
+}
+
+  .Text_layer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+    margin-top: 105.95px;
+  }
+
+//margin :0  baraye eleman haye biron
+//padding: vase eleman haye to
 
 .title {
-  position: absolute;
-  //500px
-  width: 500px;
-  //134.4px
-  height: 134.4px;
-  //60px / 970 
-  left: 60px;
-  //105.92px / 531.9
-  top: 105.92px;
+  flex-direction: column;
+  max-width: 500px;
+  //height: 134.4px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
   line-height: 123.6%;
-  background: $divs_color;
+  //background: $divs_color;
 
   .front {
     color: #FFB400;
@@ -41,36 +55,21 @@
 }
 
 
-
 .person {
-  position: absolute;
-  //325.72px
-  width: 325.72px;
-  //522.89px
+  max-width: 325.72px;
   height: 522.89px;
-  //586.68px
   left: 586.68px;
-  //9.11px
   top: 9.11px;
-  //responsive
-  //max-width: 100%;
-  //height: auto;
 }
 
 
-
 .des {
-  position: absolute;
-  background: $divs_color;
-  //424px
-  width: 424px;
-  //100.23px
+  flex-direction:column;
+  //@function: $divs_color;
+  max-width: 424px;
   height: 100.23px;
-  //60px
-  left: 60px;
-  //260.82px
-  top: 260.82px;
   color: #767676;
+  margin: 0px;
 
   /* H6 - 16px */
   font-family: 'Inter';
@@ -78,7 +77,8 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-
+  //left: 60px;
+  //top: 260.82px;
   /* or 150% */
   text-transform: capitalize;
   /*font-feature-settings: 'calt'off, 'kern'off;*/
@@ -86,28 +86,14 @@
 }
 
 
-.button_layout {
-
-  position: absolute;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
-  //154px
-  width: 154px;
-  //58.09px
-  height: 58.09px;
-  //60px
-  left: 60px;
-  //389.53px
-  top: 389.53px;
-
   .button {
     border: none;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 16px 32px;
+    padding: 28px 32px;
+    width: fit-content;
     gap: 10px;
 
     width: 154px;
@@ -125,8 +111,7 @@
   }
 
   .button_text {
-    position: absolute;
-    width: 65px;
+    width: 66px;
     height: 19px;
     left: 32px;
     top: 16px;
@@ -145,19 +130,16 @@
   }
 
   .vector {
-    position: absolute;
     left: 106px;
     top: 17px;
     height: 10.37px;
     width: 10.67px;
-    //responsive
-    //max-width: 100%;
-    //height: auto;
+   
   }
-}
 
 
 
+/*
 .Rectangle51 {
   box-sizing: border-box;
 
@@ -253,16 +235,18 @@
   border: 2px solid rgba(5, 255, 0, 0.8);
   border-radius: 50%;
 }
+*/
 
+.my_services {
+
+}
 .sidebar {
+  display: flex;
+  //position: relative;
   position: absolute;
-  //305px
-  width: 23%;
-  //1315px
-  height: 42.43%;
-  margin-left: 0px;
-  margin-top: 0px;
-
-  /* White */
+  max-width: 305px;
+  height: 1315px;
+  left: 0px;
+  top: 0px;
   background: #FFFFFF;
 }
