@@ -1,0 +1,425 @@
+.home {
+  background-color: #F0F0F6;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.main {
+  float: right;
+  margin-top: 0%;
+  margin-right: 1%;
+  width: 73%;
+}
+
+.intro {
+  background: #FFFFFF;
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+.person {
+  width: 35%;
+  margin-top: 1%;
+  margin-right: 5%;
+  margin-left: 2%;
+  max-width: 100%;
+}
+
+.Text_layer {
+  width: 60%;
+  max-width: 100%;
+  padding-top: 4%;
+  padding-right: 2%;
+  padding-bottom: 8%;
+  padding-left: 6%;
+}
+
+.title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.8vw;
+  line-height: 123.6%;
+  margin-top: 10%;
+}
+
+.des {
+  color: #767676;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.7vw;
+  max-width: 100%;
+  margin-top: 6%;
+  margin-bottom: 14%;
+}
+
+.button_style {
+  text-decoration: none;
+  background-color: #FFB400;
+  border-radius: 5%;
+  padding: 3%;
+}
+
+.button_text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6vw;
+  line-height: 19px;
+  padding: 2% 5%;
+  text-align: center;
+  color: #2B2B2B;
+}
+
+.vector {
+  width: 3%;
+  padding-left: 0%;
+}
+
+.front {
+  color: #FFB400;
+}
+
+/*
+.Rectangle51 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 16.45px;
+  height: 17.82px;
+  left: 895.44px;
+  top: 79.34px;
+
+  border: 2px solid rgba(255, 180, 0, 0.8);
+  transform: matrix(0.87, 0.49, -0.39, 0.92, 0, 0);
+}
+
+.Polygon1 {
+  background-color: white;
+  box-sizing: border-box;
+  position: absolute;
+  left: 921px;
+  top: 486.34px;
+  //height: 0;
+  //width: 0;
+  //border-left = width/2 : 16px / 2 = 8px;
+  //border-bottom = height = 18.22px;
+  //border: 2px solid rgba(255, 46, 0, 0.8);
+  //border-top: 0;
+  border: 2px solid transparent;
+  border-bottom: 18.22px solid rgba(255, 46, 0, 0.8);
+  // (16 ^  2 ) + ( 18.22 ^ 2 ) = 24.24 ^ 2
+  border-right: 8px solid transparent;
+  border-left: 8px solid transparent;
+  //fill: transparent;
+
+}
+
+.Ellipse12 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 16px;
+  height: 18.22px;
+  left: 520px;
+  top: 59.23px;
+
+  border: 2px solid rgba(5, 255, 0, 0.8);
+  border-radius: 50%;
+}
+
+.Ellipse13 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 16px;
+  height: 18.22px;
+  left: 557.86px;
+  top: 432.77px;
+
+  border: 2px solid rgba(255, 180, 0, 0.8);
+  border-radius: 50%;
+}
+
+.Rectangle52 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 16.45px;
+  height: 17.82px;
+  left: 373.8px;
+  top: 379.28px;
+
+  border: 2px solid rgba(0, 71, 255, 0.8);
+  transform: matrix(0.87, 0.49, -0.39, 0.92, 0, 0);
+}
+
+.Ellipse15 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 16px;
+  height: 18.22px;
+  left: 40px;
+  top: 34.17px;
+
+  border: 2px solid rgba(255, 180, 0, 0.8);
+  border-radius: 50%;
+}
+
+.Ellipse16 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 16px;
+  height: 18.22px;
+  left: 88px;
+  top: 480.64px;
+
+  border: 2px solid rgba(5, 255, 0, 0.8);
+  border-radius: 50%;
+}
+*/
+.services_title {
+  text-align: center;
+  font-size: 2.6vw;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 123.6%;
+  margin-top: 8%;
+  margin-bottom: 2%;
+  margin-left: auto;
+  text-transform: capitalize;
+}
+
+.services_des {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 1.4vw;
+  color: #767676;
+  font-family: "Inter";
+  font-style: normal;
+  margin-bottom: 5%;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.service_sections {
+  display: grid;
+  -moz-column-count: 3;
+       column-count: 3;
+  -moz-column-gap: 1.5%;
+       column-gap: 1.5%;
+  row-gap: 3%;
+  justify-content: center;
+  width: 100%;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.each_section {
+  margin: 1%;
+  text-align: center;
+  background-color: #FFFFFF;
+}
+
+.section_image {
+  margin: 9% auto;
+  width: 18%;
+}
+
+.section_title {
+  color: #2B2B2B;
+  font-size: 1.5vw;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  line-height: 123.6%;
+  /* or 22px */
+  text-transform: capitalize;
+}
+
+.section_body {
+  color: #767676;
+  margin: 5% 6%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  /* or 160% */
+  text-align: center;
+}
+
+.adv_title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5vw;
+  color: #2B2B2B;
+  margin-top: 6%;
+  line-height: 123.6%;
+}
+
+.order {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1vw;
+  line-height: 14px;
+  color: #FFB400;
+  margin-top: -3%;
+}
+
+.sidebar {
+  float: left;
+  background-color: #FFFFFF;
+  padding: 0% 2%;
+  width: 24%;
+}
+
+.sidebar_head {
+  text-align: center;
+}
+
+.sidebar_profile {
+  position: relative;
+}
+
+.titr {
+  color: #2B2B2B;
+  font-size: 1.6vw;
+  margin: 0% 0% 7.5% 5%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  line-height: 123.6%;
+  text-transform: capitalize;
+}
+
+.name {
+  color: #2B2B2B;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.7vw;
+  line-height: 123.6%;
+  text-transform: capitalize;
+}
+
+.job {
+  color: #767676;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4vw;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+
+.si_img {
+  display: block;
+  margin: 25% auto;
+  margin-bottom: 10%;
+  width: 68%;
+}
+
+.st_img {
+  position: absolute;
+  top: 69%;
+  left: 67%;
+  width: 18%;
+}
+
+.activity {
+  width: 100%;
+}
+
+.social_activity {
+  display: inline-flex;
+  width: 9%;
+  margin: 2%;
+}
+
+.sidebar hr {
+  margin: 8%;
+  margin-left: 4%;
+  margin-right: 4%;
+  border: 1.5px solid;
+  border-radius: 5%;
+  height: 0.5px;
+  color: #F0F0F6;
+}
+.sidebar p {
+  color: #767676;
+  font-size: 1.5vw;
+  margin: 5% 3.5%;
+}
+
+.info_t {
+  padding: 2%;
+  color: #2B2B2B;
+  background-color: #FFB400;
+}
+
+.Available_style {
+  float: right;
+  color: #7EB942;
+}
+
+#si_color {
+  color: #2B2B2B;
+}
+
+.skill_icon {
+  width: 6%;
+  margin-top: 2%;
+  margin-left: 2%;
+  margin-right: 4%;
+}
+
+.skill {
+  display: flex;
+  color: #767676;
+}
+
+.side_style {
+  float: right;
+  color: #767676;
+}
+
+.si_link {
+  float: right;
+  color: #767676;
+}
+
+.dn_button {
+  font-family: "Inter";
+  font-style: normal;
+  text-transform: uppercase;
+  background-color: #FFB400;
+  text-align: center;
+  margin: 8% 3%;
+  padding: 9% 0%;
+  font-weight: 600;
+  font-size: 1.4vw;
+  line-height: 5%;
+}
+
+.dn_text {
+  float: left;
+  color: #2B2B2B;
+  font-family: "Inter";
+  font-style: normal;
+  margin-top: 0.5%;
+  margin-left: 10%;
+}
+
+.dn_img {
+  float: right;
+  width: 6%;
+  margin-top: -3%;
+  margin-right: 17%;
+}/*# sourceMappingURL=styles.css.map */
