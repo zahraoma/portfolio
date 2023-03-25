@@ -91,6 +91,91 @@
     color:$highlight_color;
 }
 
+
+.Rectangle51 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 1.5%;
+  height: 1.5%;
+  margin-top: 5%;
+  margin-left: -6%;
+  border: 2px solid rgba(255, 180, 0, 0.8);
+  transform: matrix(0.87, 0.49, -0.39, 0.92, 0, 0);
+}
+
+.Polygon1 {
+  display: block;
+  position: absolute;
+  background-color: white;
+  box-sizing: border-box;
+  margin-top: 35%;
+  margin-left: -3%;
+  //height: 0;
+  //width: 0;
+  border: 2px solid transparent;
+  border-bottom: 18.22px solid rgba(255, 46, 0, 0.8);
+  // (16 ^  2 ) + ( 18.22 ^ 2 ) = 24.24 ^ 2
+  border-right: 8px solid transparent;
+  border-left: 8px solid transparent;
+  //fill: transparent;
+
+}
+
+.Ellipse12 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 1.5%;
+  height: 1.5%;
+  margin-top: 5%;
+  margin-left: -33%;
+  border: 2px solid rgba(5, 255, 0, 0.8);
+  border-radius: 50%;
+}
+
+.Ellipse13 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 1.5%;
+  height: 1.5%;
+  margin-top: 33%;
+  margin-left: -31%;
+  border: 2px solid rgba(255, 180, 0, 0.8);
+  border-radius: 50%;
+}
+
+.Rectangle52 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 1.5%;
+  height: 1.5%;
+  margin-top: 29%;
+  margin-left: -45%;
+  border: 2px solid rgba(0, 71, 255, 0.8);
+  transform: matrix(0.87, 0.49, -0.39, 0.92, 0, 0);
+}
+
+.Ellipse15 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 1.5%;
+  height: 1.5%;
+  margin-top: 3%;
+  margin-left: -70%;
+  border: 2px solid rgba(255, 180, 0, 0.8);
+  border-radius: 50%;
+}
+
+.Ellipse16 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 1.5%;
+  height: 1.5%;
+  margin-top: 36%;
+  margin-left: -66%;
+  border: 2px solid rgba(5, 255, 0, 0.8);
+  border-radius: 50%;
+}
+
 /*
 .Rectangle51 {
   box-sizing: border-box;
