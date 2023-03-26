@@ -16,8 +16,9 @@ Information about compiling CSS, SCSS, HTML, etc.
 Link to [README installation](README.md#installation) steps and include anything additional needed to contribute to the project.
 
 
-<hr>
-### how to contribute
+
+
+## how to contribute
 
 1. Fork the repository 
 2. Clone the project 
@@ -28,9 +29,9 @@ Link to [README installation](README.md#installation) steps and include anything
 7. Push changes to your fork
 8. Open a PR in our repository and follow the PR template so that we can efficiently review the changes.
 
-<hr>
+
   
-### Issues
+## Issues
 
 Issues should be used to report problems with the library, request a new feature, or to discuss potential changes before a PR is created. When you create a new Issue, a template will be loaded that will guide you through collecting and providing the information we need to investigate.
 
